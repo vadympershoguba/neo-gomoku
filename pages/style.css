@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(45deg, #173760, #2d276b);
+}
+
+#main-box{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    background-color: #061845;
+    width: 80vw;
+    margin-left: 10vw;
+    height: 90vh;
+    margin-top: 5vh;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#website-label{
+    margin-left: 2vw;
+}
+
+#home-button, #rules-button, #help-button, #statistics-button, #about-button{
+    background-color: #061845;
+    font-family: 'Teko', sans-serif;
+    width: 4vw;
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+    border: none;
+}
+#navigation-box{
+    margin: 0 auto;
+    width: 20.72vw; 
+    margin-top: -63px;
+}
+
+#login-button, #signup-button{
+    position: absolute;
+    top: 30px;
+    width: 7vw;
+    background-color: #061845;
+    font-family: 'Teko', sans-serif;
+    height: 30px;
+    border: 2px solid #01e4da;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+    left: 900px;
+}
+
+#signup-button{
+    left: 1020px;
+}
+
+#start-game-button{
+    width: 330px;
+    background-color: #01e4da;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    height: 40px;
+    border: none;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 200px;
+    border-radius: 4px;
+}
+
+#continue-game-button{
+    width: 330px;
+    background-color: #061845;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    height: 40px;
+    border: none;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 290px;
+    border-radius: 4px;
+    border: 2px solid #01e4da;
+    border-radius: 4px;
+    color: white;
+}
+
+#game-box{
+    background-color: #173761;
+    position: absolute;
+    width: 585px;
+    height: 585px;
+    left: 540px;
+    border-radius: 10px;
+    top: 100px;
+}
+
+#settings-button{
+    width: 330px;
+    background-color: #061845;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    height: 40px;
+    border: none;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 380px;
+    border-radius: 4px;
+    border: 2px solid #01e4da;
+    border-radius: 4px;
+    color: white;
+}
